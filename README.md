@@ -1,2 +1,4 @@
-# catalog-rails-example
-Simple catalog rails example
+# Catalog example
+Example here:
+https://funny-tshirts.herokuapp.com
+
