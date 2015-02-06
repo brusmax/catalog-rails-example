@@ -17,17 +17,14 @@
     <%= f.label :name %><br>
     <%= f.text_field :name %>
   </div>
-  <div class="field">
-    <%= f.label :size %><br>
-    <%= f.text_field :size %>
-  </div>
+
   <div class="field">
     <%= f.label :price %><br>
-    <%= f.text_field :price %>
+    <%= f.text_field :price,  {value: "22"} %>
   </div>
   <div class="field">
     <%= f.label :status %><br>
-    <%= f.check_box :status %>
+    <%= f.check_box :status,  {checked: true} %>
   </div>
   <div class="field">
     <%= f.label :category_id %><br>
