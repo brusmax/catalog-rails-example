@@ -448,3 +448,8 @@ footer .footer-below {
     display: none;
     opacity: 0;
 }
+
+.pagination a{
+    padding:7px;
+
+}
