@@ -1,8 +1,6 @@
 Rails.application.routes.draw do
 
 
-  get 'landing/index'
-
   #resources :orders
   #resources :users
   #resources :products
@@ -13,6 +11,8 @@ Rails.application.routes.draw do
 
   # You can have the root of your site routed with "root"
   root 'landing#index'
+
+  get 'category/:category' => 'landing#index', as: :categories
 
 
   # Example of regular route:

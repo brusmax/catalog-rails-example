@@ -235,6 +235,10 @@ section.success {
 #catalog .portfolio-item .portfolio-link .caption .caption-content i {
     margin-top: -12px;
 }
+#catalog .portfolio-item .portfolio-link .caption .caption-content .product-details{
+    padding-top: 20px;
+    font-size: .6em;
+}
 
 #catalog .portfolio-item .portfolio-link .caption .caption-content h3,
 #catalog .portfolio-item .portfolio-link .caption .caption-content h4 {
